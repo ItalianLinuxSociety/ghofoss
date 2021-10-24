@@ -1,0 +1,45 @@
+{
+    "events": [{
+            "media": {
+                "url": "/images/netstudent.jpg"
+            },
+            "start_date": {
+                "year": "2004"
+            },
+            "text": {
+                "it": {
+                    "headline": "Costituzione di Netstudent",
+                    "text": "<p>L'associazione studentesca Netstudent si organizza all'interno del Politecnico di Torino ed in breve coinvolge numerosi studenti tramite i corsi autogestiti.</p>"
+                }
+            }
+        },
+        {
+            "media": {
+                "url": "/images/ldtorino.png"
+            },
+            "start_date": {
+                "year": "2008"
+            },
+            "text": {
+                "it": {
+                    "headline": "Costituzione del Comitato Linux Day Torino",
+                    "text": "<p>Il Comitato nasce spontaneamente dopo il Linux Day di Torino del 2008, come collettivo di associazione ed individui dediti all'organizzazione annuale della manifestazione.</p>"
+                }
+            }
+        },
+        {
+            "media": {
+                "url": "/images/oil.png"
+            },
+            "start_date": {
+                "year": "2009"
+            },
+            "text": {
+                "it": {
+                    "headline": "Fondazione associazione Officina Informatica Libera",
+                    "text": "<p>L'associazione Officina Informatica Libera nasce per promuovere Linux ed il software libero in modo strumentale nei confronti del recupero di hardware ritenuto obsoleto.</p>"
+                }
+            }
+        }
+    ]
+}
