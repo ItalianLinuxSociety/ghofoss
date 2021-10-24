@@ -18,22 +18,35 @@ app.get('/world', (req, res) => {
     res.send(world);
 });
 app.get('/world/:nation', (req, res) => {
-    nation = req.params.nation
-    const place = JSON.parse(fs.readFileSync(`./data/children/${nation}/${nation}.json`));
-    res.send(place);
+    try {
+        nation = req.params.nation
+        const path = `./data/children/${nation}/`
+        const place = JSON.parse(fs.readFileSync(path+nation+'.json'));
+        res.send(place);
+    }catch(e){
+        res.send(e)
+    }
 })
 app.get('/world/:nation/:region', (req, res) => {
-    nation = req.params.nation
-    region = req.params.region
-    const place = JSON.parse(fs.readFileSync(`./data/children/${nation}/children/${region}/${region}.json`));
-    res.send(place);
+    try {
+        nation = req.params.nation
+        region = req.params.region
+        const place = JSON.parse(fs.readFileSync(`./data/children/${nation}/children/${region}/${region}.json`));
+        res.send(place);
+    }catch(e){
+        res.send(e)
+    }
 })
 app.get('/world/:nation/:region/:city', (req, res) => {
-    nation = req.params.nation
-    region = req.params.region
-    city = req.params.city
-    const place = JSON.parse(fs.readFileSync(`./data/children/${nation}/children/${region}/children/${city}/${city}.json`));
-    res.send(place)
+    try{
+        nation = req.params.nation
+        region = req.params.region
+        city = req.params.city
+        const place = JSON.parse(fs.readFileSync(`./data/children/${nation}/children/${region}/children/${city}/${city}.json`));
+        res.send(place)
+    }catch(e){
+        res.send(e)
+    }
 })
 
 app.listen(port, () => console.log(`Listening on http://localhost:${port}`))
