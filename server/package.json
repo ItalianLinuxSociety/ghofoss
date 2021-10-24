@@ -1,0 +1,24 @@
+{
+  "name": "ghofoss",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ItalianLinuxSociety/ghofoss.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ItalianLinuxSociety/ghofoss/issues"
+  },
+  "homepage": "https://github.com/ItalianLinuxSociety/ghofoss#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "csvtojson": "^2.0.10",
+    "express": "^4.17.1"
+  }
+}

@@ -1,0 +1,180 @@
+{
+    "title": {
+        "text": {
+            "headline": "Italia"
+        }
+    },
+    "events": [
+        {
+            "media": {
+                "url": "/italia/images/ils.png",
+                "thumbnail": "/italia/images/ils.png"
+            },
+            "start_date": {
+                "year": "1994"
+            },
+            "text": {
+                "en": {
+                    "headline": "Italian Linux Society",
+                    "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla interdum mi nec nisi varius, sit amet molestie eros lobortis. Nunc accumsan neque eget sapien sodales, at condimentum justo vehicula.</p>"
+                },
+                "it": {
+                    "headline": "Italian Linux Society",
+                    "text": "ILS è la maggiore associazione italiana per la promozione di Linux e del software libero, nata pochi anni dopo il primo annuncio di Torvalds"
+                }
+            }
+        },
+        {
+            "media": {
+                "url": "/italia/images/pluto.png",
+                "thumbnail": "/italia/images/pluto.png"
+            },
+            "start_date": {
+                "year": "1997"
+            },
+            "text": {
+                "en": {
+                    "headline": "First PLUTO Meeting",
+                    "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla interdum mi nec nisi varius, sit amet molestie eros lobortis. Nunc accumsan neque eget sapien sodales, at condimentum justo vehicula.</p>"
+                },
+                "it": {
+                    "headline": "Primo PLUTO Meeting",
+                    "text": "Il PLUTO Meeting è stato uno dei primi convegni italiani dedicati agli appassionati di Linux"
+                }
+            }
+        },
+        {
+            "media": {
+                "url": "/italia/images/linuxday.png",
+                "thumbnail": "/italia/images/linuxday.png"
+            },
+            "start_date": {
+                "year": "2001"
+            },
+            "text": {
+                "en": {
+                    "headline": "First Italian Linux Day",
+                    "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla interdum mi nec nisi varius, sit amet molestie eros lobortis. Nunc accumsan neque eget sapien sodales, at condimentum justo vehicula.</p>"
+                },
+                "it": {
+                    "headline": "Primo Linux Day",
+                    "text": "Il Linux Day è la principale manifestazione nazionale per la promozione di Linux, cui partecipano Linux Users Groups e gruppi di volontari in diverse città"
+                }
+            }
+        },
+        {
+            "media": {
+                "url": "/italia/images/esc.png",
+                "thumbnail": "/italia/images/esc.png"
+            },
+            "start_date": {
+                "year": "2005"
+            },
+            "text": {
+                "en": {
+                    "headline": "First End Summer Camp",
+                    "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla interdum mi nec nisi varius, sit amet molestie eros lobortis. Nunc accumsan neque eget sapien sodales, at condimentum justo vehicula.</p>"
+                },
+                "it": {
+                    "headline": "Primo End Summer Camp",
+                    "text": "Il primo hacker camp italiano, dedicato principalmente ai temi della sicurezza ma anche alle libertà digitali e alle nuove opportunità fornite dagli strumenti di collaborazione e confronto online"
+                }
+            }
+        },
+        {
+            "media": {
+                "url": "/italia/images/repubblica.png",
+                "thumbnail": "/italia/images/repubblica.png"
+            },
+            "start_date": {
+                "year": "2006"
+            },
+            "text": {
+                "en": {
+                    "headline": "Code of the Digital Administration",
+                    "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla interdum mi nec nisi varius, sit amet molestie eros lobortis. Nunc accumsan neque eget sapien sodales, at condimentum justo vehicula.</p>"
+                },
+                "it": {
+                    "headline": "Codice di Amministrazione Digitale",
+                    "text": "Noto ai più con la sigla CAD, introduce per la prima volta i concetti di software libero e formato aperto nel processo di digitalizzazione della pubblica amministrazione"
+                }
+            }
+        },
+        {
+            "media": {
+                "url": "/italia/images/confsl.png",
+                "thumbnail": "/italia/images/confsl.png"
+            },
+            "start_date": {
+                "year": "2007"
+            },
+            "text": {
+                "en": {
+                    "headline": "First ConfSL",
+                    "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla interdum mi nec nisi varius, sit amet molestie eros lobortis. Nunc accumsan neque eget sapien sodales, at condimentum justo vehicula.</p>"
+                },
+                "it": {
+                    "headline": "Prima ConfSL",
+                    "text": "La ConfSL è stata per diversi anni la maggiore conferenza italiana dedicata alla community del software libero, promossa da Italian Linux Society e Free Software Foundation Europe"
+                }
+            }
+        },
+        {
+            "media": {
+                "url": "/italia/images/lpi.png",
+                "thumbnail": "/italia/images/lpi.png"
+            },
+            "start_date": {
+                "year": "2008"
+            },
+            "text": {
+                "en": {
+                    "headline": "Linux Professional Institute in Italy",
+                    "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla interdum mi nec nisi varius, sit amet molestie eros lobortis. Nunc accumsan neque eget sapien sodales, at condimentum justo vehicula.</p>"
+                },
+                "it": {
+                    "headline": "Linux Professional Institute in Italia",
+                    "text": "Viene fondata LPI Italia, che diventa responsabile nazionale di Linux Professional Institute"
+                }
+            }
+        },
+        {
+            "media": {
+                "url": "/italia/images/mergeit.png",
+                "thumbnail": "/italia/images/mergeit.png"
+            },
+            "start_date": {
+                "year": "2018"
+            },
+            "text": {
+                "en": {
+                    "headline": "MERGE-it",
+                    "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla interdum mi nec nisi varius, sit amet molestie eros lobortis. Nunc accumsan neque eget sapien sodales, at condimentum justo vehicula.</p>"
+                },
+                "it": {
+                    "headline": "MERGE-it",
+                    "text": "MERGE-it ha per la prima volta riunito le maggiori realtà nazionali attive sui temi delle libertà digitali, aprendo ad un più ampio confronto non solo tra soggetti ma anche tra tematiche tra loro affini"
+                }
+            }
+        },
+        {
+            "media": {
+                "url": "/italia/images/ld_online.png",
+                "thumbnail": "/italia/images/ld_online.png"
+            },
+            "start_date": {
+                "year": "2021"
+            },
+            "text": {
+                "en": {
+                    "headline": "Online Linux Day",
+                    "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla interdum mi nec nisi varius, sit amet molestie eros lobortis. Nunc accumsan neque eget sapien sodales, at condimentum justo vehicula.</p>"
+                },
+                "it": {
+                    "headline": "Linux Day Online",
+                    "text": "Come conseguenza della pandemia COVID-19 il Linux Day 2020 si è svolto per la prima volta interamente online, riuscendo a coinvolgere molte persone che non hanno potuto prima prendervi parte a causa delle distanze geografiche"
+                }
+            }
+        }
+    ]
+}

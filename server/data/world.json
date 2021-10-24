@@ -1,0 +1,142 @@
+{
+    "title": {
+        "media": {
+            "url": "/images/timeunivatesmaddog.jpg",
+            "thumbnail": "/images/timeunivatesmaddog.jpg",
+            "caption": "First Linux SysAdmin training at Univates",
+            "credit": "Cesar Brod's personal archive"
+        },
+        "text": {
+            "headline": "Global Milestones Timeline",
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla interdum mi nec nisi varius, sit amet molestie eros lobortis. Nunc accumsan neque eget sapien sodales, at condimentum justo vehicula.</p>"
+        }
+    },
+    "events": [
+        {
+            "media": {
+                "url": "/images/radiogaga.png",
+                "thumbnail": "/images/radiogaga.png",
+                "caption": "Cesar Brod's webpages on crystal radios.",
+                "credit": "Cesar Brod:<a href='http://brodtec.com/radiogaga/'>Radio Gagá</a>"
+            },
+            "start_date": {
+                "year": "1991"
+            },
+            "text": {
+                "en": {
+                    "headline": "Torvald's first announce",
+                    "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla interdum mi nec nisi varius, sit amet molestie eros lobortis. Nunc accumsan neque eget sapien sodales, at condimentum justo vehicula.</p>"
+                },
+                "it": {
+                    "headline": "Primo annuncio di Torvalds",
+                    "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla interdum mi nec nisi varius, sit amet molestie eros lobortis. Nunc accumsan neque eget sapien sodales, at condimentum justo vehicula.</p>"
+                }
+            }
+        },
+        {
+            "media": {
+                "url": "/images/8080.jpg",
+                "thumbnail": "/images/8080.jpg",
+                "caption": "8080 microprocessor",
+                "credit": "<a href=\"https://en.wikipedia.org/wiki/Intel_8080\">Wikipedia</a>"
+            },
+            "start_date": {
+                "year": "1993"
+            },
+            "text": {
+                "en": {
+                    "headline": "Debian",
+                    "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla interdum mi nec nisi varius, sit amet molestie eros lobortis. Nunc accumsan neque eget sapien sodales, at condimentum justo vehicula.</p>"
+                },
+                "it": {
+                    "headline": "Debian",
+                    "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla interdum mi nec nisi varius, sit amet molestie eros lobortis. Nunc accumsan neque eget sapien sodales, at condimentum justo vehicula.</p>"
+                }
+            }
+        },
+        {
+            "media": {
+                "url": "/images/8080.jpg",
+                "thumbnail": "/images/8080.jpg",
+                "caption": "8080 microprocessor",
+                "credit": "<a href=\"https://en.wikipedia.org/wiki/Intel_8080\">Wikipedia</a>"
+            },
+            "start_date": {
+                "year": "1997"
+            },
+            "text": {
+                "en": {
+                    "headline": "The Cathedral and the Bazaar",
+                    "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla interdum mi nec nisi varius, sit amet molestie eros lobortis. Nunc accumsan neque eget sapien sodales, at condimentum justo vehicula.</p>"
+                },
+                "it": {
+                    "headline": "La Cattedrale e il Bazaar",
+                    "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla interdum mi nec nisi varius, sit amet molestie eros lobortis. Nunc accumsan neque eget sapien sodales, at condimentum justo vehicula.</p>"
+                }
+            }
+        },
+        {
+            "media": {
+                "url": "/images/8080.jpg",
+                "thumbnail": "/images/8080.jpg",
+                "caption": "8080 microprocessor",
+                "credit": "<a href=\"https://en.wikipedia.org/wiki/Intel_8080\">Wikipedia</a>"
+            },
+            "start_date": {
+                "year": "2000"
+            },
+            "text": {
+                "en": {
+                    "headline": "Linux Foundation",
+                    "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla interdum mi nec nisi varius, sit amet molestie eros lobortis. Nunc accumsan neque eget sapien sodales, at condimentum justo vehicula.</p>"
+                },
+                "it": {
+                    "headline": "Linux Foundation",
+                    "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla interdum mi nec nisi varius, sit amet molestie eros lobortis. Nunc accumsan neque eget sapien sodales, at condimentum justo vehicula.</p>"
+                }
+            }
+        },
+        {
+            "media": {
+                "url": "/images/8080.jpg",
+                "thumbnail": "/images/8080.jpg",
+                "caption": "8080 microprocessor",
+                "credit": "<a href=\"https://en.wikipedia.org/wiki/Intel_8080\">Wikipedia</a>"
+            },
+            "start_date": {
+                "year": "2004"
+            },
+            "text": {
+                "en": {
+                    "headline": "Ubuntu",
+                    "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla interdum mi nec nisi varius, sit amet molestie eros lobortis. Nunc accumsan neque eget sapien sodales, at condimentum justo vehicula.</p>"
+                },
+                "it": {
+                    "headline": "Ubuntu",
+                    "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla interdum mi nec nisi varius, sit amet molestie eros lobortis. Nunc accumsan neque eget sapien sodales, at condimentum justo vehicula.</p>"
+                }
+            }
+        },
+        {
+            "media": {
+                "url": "/images/8080.jpg",
+                "thumbnail": "/images/8080.jpg",
+                "caption": "8080 microprocessor",
+                "credit": "<a href=\"https://en.wikipedia.org/wiki/Intel_8080\">Wikipedia</a>"
+            },
+            "start_date": {
+                "year": "2005"
+            },
+            "text": {
+                "en": {
+                    "headline": "Git",
+                    "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla interdum mi nec nisi varius, sit amet molestie eros lobortis. Nunc accumsan neque eget sapien sodales, at condimentum justo vehicula.</p>"
+                },
+                "it": {
+                    "headline": "Git",
+                    "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla interdum mi nec nisi varius, sit amet molestie eros lobortis. Nunc accumsan neque eget sapien sodales, at condimentum justo vehicula.</p>"
+                }
+            }
+        }
+    ]
+}
