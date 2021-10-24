@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="public/css/ghofoss.css" rel="stylesheet">
+    <title>A Glocal History of FOSS</title>
+</head>
+
+<body>
+    <header>
+        <h1>A Glocal History of FOSS</h1>
+    </header>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col filters">
+                <select name="country">
+                    <option name="world">Mondo</option>
+                    <option name="world/italia">Italia</option>
+                </select>
+
+                <div class="input-group input-daterange">
+                    <input type="text" class="form-control" value="1991-01-01">
+                    <div class="input-group-addon">a</div>
+                    <input type="text" class="form-control" value="2021-12-31">
+                </div>
+            </div>
+        </div>
+
+        <div class="row focus-map">
+            <img src="public/images/world.svg" class="w-100">
+        </div>
+
+        <div class="row timeline">
+        </div>
+    </div>
+
+    <script src="public/js/ghofoss.js"></script>
+</body>
+
+</html>
