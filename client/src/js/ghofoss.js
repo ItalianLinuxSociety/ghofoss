@@ -15,7 +15,7 @@ function renderTimeline(data) {
         let row = timeline.find('.row.sample').first().clone();
         row.removeClass('sample').removeClass('d-none');
         row.find('.year').text(element.start_date.year);
-        row.find('.contents').find('.node').text(element.text.it.headline);
+        row.find('.contents .node .title').text(element.text.it.headline);
         timeline.append(row);
     });
 }

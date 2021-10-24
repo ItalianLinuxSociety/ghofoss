@@ -1,2 +1,36 @@
 @import "~bootstrap";
 @import '~bootstrap-datepicker/dist/css/bootstrap-datepicker3.css';
+
+header {
+    width: 100%;
+    text-align: right;
+    padding: 20px;
+    background-color: #FAC600;
+}
+
+.filters {
+    background-color: #FAC600;
+}
+
+.timeline {
+    .year {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .node {
+        padding: 20px;
+        border-radius: 50%;
+        background-color: #FAC600;
+        width: 200px;
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+}
