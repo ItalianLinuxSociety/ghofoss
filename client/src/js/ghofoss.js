@@ -1,6 +1,8 @@
 window.$ = window.jQuery = global.$ = global.jQuery = require('jquery');
 require('bootstrap-datepicker');
 
+var backend_url = 'https://ghofoss.herokuapp.com/';
+
 $('.input-daterange').datepicker({});
 
 $('.input-daterange input').each(function() {
@@ -20,24 +22,29 @@ function renderTimeline(data) {
     });
 }
 
+function fixMap(path) {
+    $('.map').attr('src', 'public/images/maps/' + path + '.svg');
+}
+
 function fetchData(path) {
+    let url = backend_url + path;
+
     $.ajax({
-        url: path,
+        url: url,
         method: 'GET',
         dataType: 'JSON',
         success: function(data) {
+            fixMap(path);
             renderTimeline(data);
         }
     });
 }
 
-var backend_url = 'https://ghofoss.herokuapp.com/';
-
 $('select[name=country]').change(function() {
-    fetchData(backend_url + $(this).find('option:selected').val());
+    fetchData($(this).find('option:selected').val());
 });
 
 /*
     By default, the global timeline is fetched and rendered
 */
-fetchData(backend_url + 'world');
+fetchData('world');

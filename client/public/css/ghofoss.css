@@ -12862,6 +12862,14 @@ header {
   background-color: #FAC600;
 }
 
+.map {
+  width: auto;
+  margin: auto;
+  display: block;
+  height: 400px;
+  max-height: 400px;
+}
+
 .filters {
   background-color: #FAC600;
 }
