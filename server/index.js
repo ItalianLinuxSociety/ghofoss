@@ -18,14 +18,16 @@ app.get('/world', (req, res) => {
     res.send(world);
 });
 
-app.use('/images/:nation/:region?/:city?/:asset', (req, res, next) => {
+app.use('/images/:nation?/:region?/:city?/:asset', (req, res, next) => {
     req.url = req.params.asset;
-    if(req.params.region){
+    if(req.params.nation){
+        express.static(__dirname + `/data/children/${req.params.nation}/images/`)(req, res, next);
+    }else if(req.params.region){
         express.static(__dirname + `/data/children/${req.params.nation}/children/${req.params.region}/images/`)(req, res, next);
     }else if(req.params.city){
         express.static(__dirname + `/data/children/${req.params.nation}/children/${req.params.region}/children/${req.params.city}/images/`)(req, res, next);
     }else{
-        express.static(__dirname + `/data/children/${req.params.nation}/images`)(req, res, next);
+        express.static(__dirname + `/data/images/`)(req, res, next);
     }
   })
 
